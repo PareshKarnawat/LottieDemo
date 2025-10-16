@@ -23,6 +23,7 @@ struct LottieLoadingAnimation: View {
                 .styled(loopMode: .loop, playbackMode: playbackMode, size: 200)
         }
         .navigationTitle("Lottie Loading Animations")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

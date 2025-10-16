@@ -18,9 +18,14 @@ struct ContentView: View {
                 NavigationLink("Rain and Person Animation"){
                     LottieRainAndPersonAnimation()
                 }
+                NavigationLink("Menu Icons Animation"){
+                    LottieTabbarWithIconAnimated()
+                }
             }
+            .navigationTitle("Lottie Animations")
+            .navigationBarTitleDisplayMode(.large)
         }
-        .navigationTitle("")
+      
     }
 }
 

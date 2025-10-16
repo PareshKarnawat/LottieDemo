@@ -14,10 +14,13 @@ struct LottieRainAndPersonAnimation: View {
             LottieView(animation: .named("36240-rain-icon"))
                 .styled()
             
+            
             LottieView(animation: .named("lf30_editor_xapqxsmy"))
                 .styled()
+                .offset(y:-100)
         }
         .navigationTitle("Lottie Rain and Person Animation")
+        .navigationBarTitleDisplayMode(.inline)
         .padding()
     }
 }
